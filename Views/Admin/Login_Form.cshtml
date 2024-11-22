@@ -1,0 +1,143 @@
+﻿
+@{
+    Layout = null;
+}
+
+
+
+@* 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="~/css/StyleSheet.css">
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <div class="login-container">
+        <form class="login-form" method="post">
+           <h1 class="text-center text-danger">Admin Login </h1>
+            <div class="input-group">
+                <label for="username">Email</label>
+                <input type="text" id="username" name="email" class="form-control" placeholder="Enter your Email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your Password" class="form-control" required>
+
+
+            </div>
+
+            
+            
+            <button type="submit">Login</button> <br/><br/>
+            @if (ViewBag.message != null)
+            {
+
+                <h4  class="text-danger pt-4">@ViewBag.message</h4>
+            }
+
+           
+        </form>
+    </div>
+</body>
+</html>
+
+ *@
+
+
+
+
+                <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="~/css/StyleSheet.css">
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            background-image:url("/images/slider1.jpg");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .login-container {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .input-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+
+        .input-group label {
+            margin-bottom: 5px;
+        }
+
+        .input-group input {
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        h4 {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <form class="login-form" method="post">
+            <h1 class="text-center text-primary">Admin Login</h1>
+            <div class="input-group">
+                <label for="username">Email</label>
+                <input type="text" id="username" name="admin_email" class="form-control" placeholder="Enter your Email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="admin_Password" placeholder="Enter your Password" class="form-control" required>
+            </div>
+            <button type="submit">Login</button> 
+            @if (ViewBag.message != null)
+            {
+                <h4 class="text-danger">@ViewBag.message</h4>
+            }
+        </form>
+    </div>
+</body>
+</html>

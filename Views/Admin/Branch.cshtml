@@ -1,0 +1,222 @@
+﻿@using healt_Center.Models;
+@{
+    ViewData["Title"] = "Branch";
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
+}
+
+@model List<Branch>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Form</title>
+    <style>
+       
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            /* background: #fff; */
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            box-sizing: border-box;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            box-sizing: border-box;
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .card h2 {
+            margin-top: 0;
+        }
+
+        .card input[type="text"],
+        .card input[type="number"],
+        .card input[type="email"],
+        .card textarea {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .card textarea {
+            height: 100px;
+            resize: vertical;
+        }
+
+        .card b {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .card button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .card button:hover {
+            background-color: #555;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <form method="post" enctype="multipart/form-data" action="@Url.Action("Branch_Update","admin")">
+        @if(ViewBag !=null)
+        {
+            
+      
+        <div class="container">
+        <div class="card">
+            <h2>Contact Info</h2>
+            <input type="hidden" name="Branch_Id" value="@ViewBag.branchID"></input>
+            <b>Description</b>
+            <textarea name="Branch_Description" required placeholder=" Enter Description detail...">@ViewBag.Description</textarea>
+            <b>Phone</b>
+            <input type="number" placeholder="Enter Phone Number..." name="Branch_number" required value="@ViewBag.number"/>
+            <b>Email</b>
+            <input type="email" placeholder="Enter Email Id..."  name="Branch_email" required value="@ViewBag.email"/>
+        </div>
+
+        <div class="card">
+            <h2>Opening Hours</h2>
+            <b>Monday-Friday</b>
+            <input type="text"  name="Branch_mon_fri" placeholder="Enter time range (e.g., 9:00 AM - 5:00 PM)" value="@ViewBag.Day_Mon_Fri" />
+            <b>Saturday</b>
+            <input type="text" placeholder="Enter time range (e.g., 9:00 AM - 5:00 PM)" name="Branch_Saturday" value="@ViewBag.saturday"  />
+            <b>Sunday</b>
+            <input type="text" placeholder="Enter time..." name="Branch_sunday" value="@ViewBag.sanday" />
+        </div>
+
+        <div class="card">
+            <h2>Social Media Links</h2>
+            <b>Facebook Link</b>
+            <input type="text" name="Branch_facebook" value="@ViewBag.facebook" placeholder="https://www.facebook.com/yourprofile" />
+            <b>Twitter Link</b>
+            <input type="text" name="Branch_twitter" value="@ViewBag.twitter" placeholder="https://www.twitter.com/yourprofile" />
+            <b>Instagram Link</b>
+            <input type="text" name="Branch_instagram" value="@ViewBag.instagram" placeholder="https://www.instagram.com/yourprofile" />
+            <b>Branch Logo</b>
+            
+            <input type="file" name="Branch_Logo" id="branch_logo" onchange="previewImage(event)" accept="image/*" /> 
+        <img id="profileImage" src="@("/dr_pic/" + ViewData["Branch_Logoo"])" width="100px;" height="100px;" alt="Branch Logo"  />
+
+        </div>
+
+        <div class="card" style="flex-basis: 100%; text-align: center;">
+            <button type="submit">Submit</button>
+        </div>
+    </div>
+      }
+    </form>
+    <script>
+        function previewImage(event) {
+            var input = event.target;
+            var reader = new FileReader();
+            reader.onload = function() {
+                var dataURL = reader.result;
+                var output = document.getElementById('profileImage');
+                output.src = dataURL;
+            };
+            reader.readAsDataURL(input.files[0]);
+        }
+    </script>
+</body>
+</html>
+
+
+@* -------------------table branch------------- *@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="e:\inzeal infotech\project\healt_center\healt_center\wwwroot\css\bootstrap.min.css" rel="stylesheet"/>
+    <style>
+        .card {
+            margin-top: 20px;
+        }
+        .card-body img {
+            margin-top: 10px;
+        }
+    </style>
+    <title>Barnch Details</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                 <h4 class="text-center text-danger">Branch Details</h4>
+                 
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th >Branch Description</th>
+                                <th>Branch Number</th>
+                                <th>Branch email</th>
+                                <th>Branch Day(Mon-Fir)</th>
+                                <th>Branch Day(Sat)</th>
+                                <th>Branch Day(Sunday)</th>
+                                <th>Branch facebook</th>
+                                <th>Branch twitter</th>
+                                <th>Branch instagram</th>
+                                <th>Branch Logo</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if(Model != null)
+                            {
+                                @foreach(var data in Model)
+                                {
+                                    <tr>
+                                        <td>@data.Branch_Description</td>
+                                        <td>@data.Branch_number</td>
+                                        <td>@data.Branch_email</td>
+                                        <td>@data.Branch_mon_fri</td>
+                                        <td>@data.Branch_Saturday</td>
+                                        <td>@data.Branch_sunday</td>
+                                        <td>@data.Branch_facebook</td>
+                                        <td>@data.Branch_twitter</td>
+                                        <td>@data.Branch_instagram</td>
+                                        <td>
+                                            <img src="@("/Dr_pic/" + data.Branch_Logo)" style="border-radius:50%;"  width="100px">
+                                        </td>
+                                         <td>
+                                            <a href="@Url.Action("Branch_get","admin",new{id=data.Branch_Id})" class="btn btn-success">Update</a>
+                                        </td> 
+                                     </tr>
+                                }
+                            }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

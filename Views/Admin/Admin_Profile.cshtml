@@ -1,0 +1,42 @@
+﻿@using healt_Center.Models
+@{
+    ViewData["Title"] = "Admin_Profile";
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
+}
+
+
+
+    <div class="card p-3  container" style="width:100%">
+        <h4 class="text-danger text-center" >Add Admin</h4>
+            <form method="post" enctype="multipart/form-data" >
+            
+                <input type="hidden" name="id"  />
+            
+              <input type="text" class="form-control my-3" name="admin_name" required    placeholder="Enter your Name...">
+            
+            <input type="email" class="form-control my-3" name="admin_email"  required  placeholder="Enter your Email...">
+           
+            <input type="password" class="form-control my-3" name="admin_Password" required  placeholder="Enter your Password..."> 
+
+            <input type="file" class="form-control my-3"  name="admin_profile" onchange="previewImage(event)" accept="image/*"  />
+            <img src="@Url.Content("~/Admin_Profile/" + ViewData["admin_picc"])" id="imagePreview" width="100px;" height="100px" alt="Image" style="display: block; margin-bottom: 10px;">
+
+            <input type="submit" value="Submit" class="btn btn-success" style="display: block;">
+          
+        </form>
+        <script>
+        function previewImage(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    document.getElementById('imagePreview').src = e.target.result;
+                }
+                reader.readAsDataURL(file);
+            }
+        }
+    </script>
+        
+</div>
+
+    

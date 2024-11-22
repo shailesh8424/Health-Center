@@ -1,0 +1,108 @@
+﻿@using healt_Center.Models
+@{
+    ViewData["Title"] = "Doctor_Update";
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
+}
+@model Doctor
+
+
+<html>
+    <head>
+         <link href="e:\inzeal infotech\project\healt_center\healt_center\wwwroot\css\bootstrap.min.css" rel="stylesheet"/>
+    </head>
+    <style>
+         .outer
+        {
+            min-height:200px;
+            width:100%;
+        }
+        .first_form
+        {
+            border:1px solid black;
+            
+            color:black;
+        }
+       
+    </style>
+    <body>
+        
+    @if (Model != null)
+    {
+         
+
+        <form method="post" enctype="multipart/form-data")>
+            <div class="container-fluid outer ">
+            <div class="row ">
+                 
+                <div class="col-sm-9 first_form">
+                    <h2>About Doctor</h2>
+                         <img src="/Dr_pic/a3.jpg"/>
+                           <input type="number" name="doctor_id" class="form-control" hidden value="@Model.doctor_id"/>
+                            <b>Doctor_Name</b>
+                           <input type="text" name="doctor_name" class="form-control" value="@Model.doctor_name" />
+                           <b>Doctor_Email</b>
+                           <input type="email" name="doctor_email" class="form-control" value="@Model.doctor_email"/>
+                           <b>Doctor_Number</b>
+                           <input type="number" name="doctor_number" class="form-control" value="@Model.doctor_number"/>
+                           <b>Gender</b><br/>
+                            <select class="form-control" name="doctor_gender">
+                                <option selected disabled>---Select Gender--</option>
+                                @if(ViewData["Gender"].ToString()=="Male")
+                            {
+                                <option selected>Male</option>
+                                <option>Female</option>
+                            }
+                            else
+                            {
+                             <option >Male</option>
+                                <option selected>Female</option>   
+                            }
+                            </select>
+                            <b>Doctor_Department</b>
+                           <select class="form-control" name="doctor_department" value="@Model.doctor_department">
+                                 <option selected disabled>---Select Department--</option>
+                            @if(ViewData["department"].ToString()=="Audiologists")
+                            {
+                                <option selected>Audiologists</option>
+                            }
+                            else
+                            {
+                                <option>Audiologists</option>
+                            }
+                             @if(ViewData["department"].ToString()=="Cardiologists")
+                            {
+                                <option selected>Cardiologists</option>
+                            }
+                            else
+                            {
+                                <option>Cardiologists</option>
+                            }
+                            @if(ViewData["department"].ToString()=="Psychiatrists")
+                            {
+                                <option selected>Psychiatrists</option>
+                            }
+                            else
+                            {
+                                <option>Psychiatrists</option>
+                            }
+                            </select>
+                            
+                           <b>Doctor_Profile</b>
+                           <input type="file" name="doctor_profile" class="form-control" value="@Model.doctor_profile"/>
+                       
+                                       
+                        <input type="submit" value="Update" href="@Url.Action("doctor_update","admin",new{id=Model.doctor_id})" class="btn btn-success  mt-3"/>
+                    
+               </div>
+               
+           
+        </div>
+        </form>
+        }
+        
+        
+       
+        </body>
+        </html>
+
+

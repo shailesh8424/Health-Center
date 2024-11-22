@@ -1,0 +1,184 @@
+﻿@using healt_Center.Models;
+@{
+    ViewData["Title"] = "Doctor";
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
+}
+@model List<Doctor> 
+
+
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="e:\inzeal infotech\project\healt_center\healt_center\wwwroot\css\bootstrap.min.css" rel="stylesheet"/>
+    <style>
+        .card {
+            margin-top: 20px;
+        }
+        .card-body img {
+            margin-top: 10px;
+        }
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+    </style>
+    <title>Doctor Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="text-danger text-center">About Doctor</h4>
+            </div>
+            <div class="card-body">
+                <form method="post" enctype="multipart/form-data" action="@Url.Action("doctor_update", "admin")">
+                    <div class="row">
+                        <div class="col-md-4 form-group">
+                            <input type="hidden" name="doctor_id"  required class="form-control" value="@ViewBag.id">
+                            <label for="doctor_name"><b>Doctor Name</b></label>
+                            <input type="text" name="doctor_name" required  placeholder="Enter your Name..." class="form-control" value="@ViewBag.name">
+                        </div>
+                        <div class="col-md-4 form-group">
+                            <label for="doctor_email"><b>Doctor Email</b></label>
+                            <input type="email" name="doctor_email" required  class="form-control" placeholder="Enter your Email..." value="@ViewBag.email">
+                        </div>
+                        <div class="col-md-4 form-group">
+                            <label for="doctor_number"><b>Doctor Number</b></label>
+                            <input type="number" name="doctor_number" required  placeholder="Enter your Number..." class="form-control" value="@ViewBag.number">
+                        </div>
+                    </div>
+
+                    <div class="row">
+    <div class="col-md-4 form-group">
+        <label for="doctor_gender"><b>Gender</b></label>
+        <select class="form-control" required  name="doctor_gender">
+            <option selected disabled>---Select Gender---</option>
+            <option value="Male" @(ViewData["Gender"]?.ToString() == "Male" ? "selected" : "")>Male</option>
+            <option value="Female" @(ViewData["Gender"]?.ToString() == "Female" ? "selected" : "")>Female</option>
+        </select>
+    </div>
+    <div class="col-md-4 form-group">
+        <label for="doctor_department"><b>Doctor Department</b></label>
+        <select class="form-control" required  name="doctor_department">
+            <option selected disabled>---Select Department---</option>
+            <option value="Audiologists" @(ViewData["department"]?.ToString() == "Audiologists" ? "selected" : "")>Audiologists</option>
+            <option value="Cardiologists" @(ViewData["department"]?.ToString() == "Cardiologists" ? "selected" : "")>Cardiologists</option>
+            <option value="Psychiatrists" @(ViewData["department"]?.ToString() == "Psychiatrists" ? "selected" : "")>Psychiatrists</option>
+        </select>
+    </div>
+                         <div class="col-md-4 form-group">
+                            <label for="doctor_linkedin_profile"><b>Doctor linkedin_Profile link</b></label>
+                            <input type="text" name="doctor_linkedin_profile" placeholder="Enter your Linkedin Link..." value="@ViewBag.linkedin_profile" class="form-control">
+                        </div>
+
+                       @*  <div class="col-md-4 form-group">
+                            <label for="doctor_profile"><b>Doctor Profile</b></label>
+                            <input type="file" name="doctor_profile" class="form-control">
+                            <img src="@("/Dr_pic/" + ViewData["image"])" width="100px" height="100px" alt="Doctor Profile">
+                        </div> *@
+                        <div class="col-md-4 form-group">
+                        <label for="doctor_profile"><b>Doctor Profile</b></label>
+                        <input type="file"  name="doctor_profile" id="doctor_profile" class="form-control"  onchange="previewImage(event)">
+                        <img id="imagePreview" src="@("/Dr_pic/" + ViewData["image"])"   width="50px" height="50px" alt="Doctor Profile">
+                    </div>
+
+                       
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-success mt-2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="e:\inzeal infotech\project\healt_center\healt_center\wwwroot\js\bootstrap.min.js"></script>
+    <script>
+    function previewImage(event) {
+        var input = event.target;
+        var reader = new FileReader();
+        reader.onload = function(){
+            var dataURL = reader.result;
+            var imgPreview = document.getElementById('imagePreview');
+            imgPreview.src = dataURL;
+        };
+        reader.readAsDataURL(input.files[0]);
+    }
+</script>
+
+</body>
+</html>
+
+        <hr/>
+        @*  show in the doctor table *@
+  @*     -------------------table-------------------- *@
+
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="e:\inzeal infotech\project\healt_center\healt_center\wwwroot\css\bootstrap.min.css" rel="stylesheet"/>
+    <style>
+        .card {
+            margin-top: 20px;
+        }
+        .card-body img {
+            margin-top: 10px;
+        }
+    </style>
+    <title>Doctor Details</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="text-danger">Doctor Details</h4>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-bordered text-center">
+                        <thead >
+                            <tr class="text-center">
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Phone</th>
+                                <th>Department</th>
+                                <th>Gender</th>
+                                <th>Linkdin</th>
+                                <th>Image</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if(Model != null)
+                            {
+                                @foreach(var data in Model)
+                                {
+                                    <tr>
+                                        <td>@data.doctor_name</td>
+                                        <td>@data.doctor_email</td>
+                                        <td>@data.doctor_number</td>
+                                        <td>@data.doctor_department</td>
+                                        <td>@data.doctor_gender</td>
+                                        <td>@data.doctor_linkedin_profile</td>
+                                        <td>
+                                            <img src="@("/Dr_pic/" + data.doctor_profile)" height="60px" style="border-radius:50%;" alt="Doctor Profile" width="60px">
+                                        </td>
+                                        <td>
+                                            <a href="@Url.Action("Doctor_get", "admin", new { id = data.doctor_id })" class="btn btn-success">Update</a>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

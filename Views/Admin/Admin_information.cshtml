@@ -1,0 +1,74 @@
+﻿@using healt_Center.Models
+@{
+    ViewData["Title"] = "Admin_information";
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
+}
+
+
+@model admin
+<style>
+    #profileImage
+    {
+        padding-top: 10%;
+        padding-left:10%;
+        height:60%;
+        width:90%;
+    }
+</style>
+
+  <!-- Profile Card Form -->
+<div class="card mb-4 " style="max-width: 100%;">
+    <div class="row g-0">
+        <div class="col-md-4">
+           @* <img id="profileImage" src="@Url.Content("~/Admin_Profile/" + ViewData["Admin_profile"])" name="ad" class="img-fluid rounded-start" alt="Profile Picture" /> *@
+           <img  id="profileImage"  src="@Url.Content("~/Admin_Profile/" + ViewData["admin_pic"])"  name="admin_profile" class="img-fluid rounded-start img-thumnale  p" alt="Profile Picture"  />
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+               
+                <form  action="Update_Admin_Profile" method="post"  enctype="multipart/form-data")>
+
+                    <input type="hidden" name="Id" value="@Model.Id"  ></input>
+
+                    <div class="form-group mb-3">
+                        <label asp-for="admin_name">Admin Name</label>
+                        <input type="text" class="form-control" value="@Model.admin_name" name="admin_name"  asp-for="admin_name" />
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="admin_email">Email</label>
+                        <input type="email" class="form-control" value="@Model.admin_email" name="admin_email"  asp-for="admin_email" />
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="admin_password">Password</label>
+                        <input type="password" class="form-control" value="@Model.admin_Password" name="admin_Password"  asp-for="admin_password" />
+                    </div>
+                    <div class="form-group mb-3">
+                        <label asp-for="admin_profile">Profile Picture</label>
+                        <input type="file" class="form-control" name="admin_profile" v  onchange="previewImage(event)" accept="image/*" />
+                       
+                    </div>
+                    <button type="submit"  class="btn btn-primary">Update</button>
+                </form>
+
+            </div>
+            
+           
+        </div>
+    </div>
+</div>
+
+  <script>
+        function previewImage(event) {
+            var input = event.target;
+            var reader = new FileReader();
+            reader.onload = function() {
+                var dataURL = reader.result;
+                var output = document.getElementById('profileImage');
+                output.src = dataURL;
+            };
+            reader.readAsDataURL(input.files[0]);
+        }
+    </script>
+    
+
+

@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewData["Title"] = "Add_Admin";
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
+}
+
+ <div class="card p-3  container" style="width:100%">
+        <h4 class="text-danger text-center" >Admin Profile</h4>
+            <form method="post" enctype="multipart/form-data"  >
+            
+                <input type="hidden" name="id"  value="@ViewBag.Id" />
+            
+              <input type="text" class="form-control my-3" name="admin_name" value="@ViewBag.admin_name"   placeholder="Enter your Name...">
+            
+            <input type="email" class="form-control my-3" name="admin_email" value="@ViewBag.admin_email"   placeholder="Enter your Email...">
+           
+            <input type="password" class="form-control my-3" name="admin_Password" value="@ViewBag.admin_Password"  placeholder="Enter your Password..."> 
+
+            <input type="file" class="form-control my-3"  name="admin_profile" onchange="previewImage(event)" accept="image/*" value="@ViewBag.admin_profile" />
+            <img src="@Url.Content("~/Admin_Profile/" + ViewData["admin_picc"])" id="imagePreview" width="100px;"> 
+
+            <input type="submit" value="Submit" class="btn btn-success">
+          
+        </form>
+

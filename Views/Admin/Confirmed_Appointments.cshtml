@@ -1,0 +1,82 @@
+﻿@using healt_Center.Models
+@{
+    ViewData["Title"] = "Confirmed_Appointments";
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
+}
+
+@model List<patient>
+
+<style>
+    .fixed-width {
+        width: 200px; /* Adjust the width as needed */
+        white-space: nowrap; /* Optional: Prevent text from wrapping */
+        overflow: hidden; /* Optional: Hide overflow content */
+        text-overflow: ellipsis; /* Optional: Show ellipsis for overflow content */
+    }
+</style>
+
+<div class="card">
+    <div class="card-header">
+        <h4 class="text-center text-danger">All Confirmed Appointments</h4>
+
+        <div class="card-header-right">
+            <ul class="list-unstyled card-option">
+                <li><i class="icofont icofont-simple-left "></i></li>
+                <li><i class="icofont icofont-maximize full-card"></i></li>
+                <li><i class="icofont icofont-minus minimize-card"></i></li>
+                <li><i class="icofont icofont-refresh reload-card"></i></li>
+                <li><i class="icofont icofont-error close-card"></i></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-block table-border-style">
+        <div class="table-responsive">
+            <table class="table table-hover ">
+                <thead>
+                    <tr">
+                        <th>User_Name</th>
+                        <th>User_Email</th>
+                        <th>User_Date</th>
+                        <th>User_Department</th>
+                        <th>User_Phone No</th>
+                        <th>Time</th>
+                        <th class="fixed-width">AdminMessage</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null)
+                    {
+                        @foreach (var appoint in Model)
+                        {
+                            <tr>
+
+                                <td>@appoint.name</td>
+                                <td>@appoint.email</td>
+                                <td>@appoint.date</td>
+                                <td>@appoint.department</td>
+                                <td>@appoint.phone</td>
+                                <td>@appoint.admin_time</td>
+                                <td class="fixed-width">@appoint.admin_message</td>
+                                @if (appoint.status == 0)
+                                {
+                                    <td style="color:red;">Pending</td>
+                                }
+                                else
+                                {
+                                    <td style="color:green;">Confirmed</td>
+                                }
+
+                                <td>
+                                   <a href="@Url.Action("FixShedule","admin",new{id=appoint.Id})" class="btn btn-primary">Again Create Shedule</a>
+                                </td>
+                            </tr>
+                        }
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

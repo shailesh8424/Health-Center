@@ -1,0 +1,825 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\Admin_Profile\\1701845943698.jpeg",
+      "PackagePath": "staticwebassets\\Admin_Profile\\1701845943698.jpeg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\Admin_Profile\\Centers-Healthcare.jpg",
+      "PackagePath": "staticwebassets\\Admin_Profile\\Centers-Healthcare.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\Admin_Profile\\DSC_7784.JPG",
+      "PackagePath": "staticwebassets\\Admin_Profile\\DSC_7784.JPG"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\Admin_Profile\\businessman-logging-his-tablet.jpg",
+      "PackagePath": "staticwebassets\\Admin_Profile\\businessman-logging-his-tablet.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\Admin_Profile\\pexels-jeff-denlea-721292-3714743.jpg",
+      "PackagePath": "staticwebassets\\Admin_Profile\\pexels-jeff-denlea-721292-3714743.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\Admin_Profile\\pexels-shvets-production-7512950.jpg",
+      "PackagePath": "staticwebassets\\Admin_Profile\\pexels-shvets-production-7512950.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\Admin_Profile\\pexels-shvetsa-3902882.jpg",
+      "PackagePath": "staticwebassets\\Admin_Profile\\pexels-shvetsa-3902882.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\Admin_Profile\\pexels-shvetsa-4769130.jpg",
+      "PackagePath": "staticwebassets\\Admin_Profile\\pexels-shvetsa-4769130.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\Dr_pic\\1701845943698.jpeg",
+      "PackagePath": "staticwebassets\\Dr_pic\\1701845943698.jpeg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\Dr_pic\\Centers-Healthcare.jpg",
+      "PackagePath": "staticwebassets\\Dr_pic\\Centers-Healthcare.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\Dr_pic\\WhatsApp Image 2024-07-06 at 21.02.04.jpg",
+      "PackagePath": "staticwebassets\\Dr_pic\\WhatsApp Image 2024-07-06 at 21.02.04.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\Dr_pic\\businessman-logging-his-tablet.jpg",
+      "PackagePath": "staticwebassets\\Dr_pic\\businessman-logging-his-tablet.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\Dr_pic\\pexels-jeff-denlea-721292-3714743.jpg",
+      "PackagePath": "staticwebassets\\Dr_pic\\pexels-jeff-denlea-721292-3714743.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\Dr_pic\\pexels-shvets-production-7512950.jpg",
+      "PackagePath": "staticwebassets\\Dr_pic\\pexels-shvets-production-7512950.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\Dr_pic\\pexels-shvetsa-3902882.jpg",
+      "PackagePath": "staticwebassets\\Dr_pic\\pexels-shvetsa-3902882.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\Dr_pic\\pexels-shvetsa-4769130.jpg",
+      "PackagePath": "staticwebassets\\Dr_pic\\pexels-shvetsa-4769130.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\css\\animate.css\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.css\\css\\animate.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\css\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\css\\jquery.mCustomScrollbar.css",
+      "PackagePath": "staticwebassets\\assets\\css\\jquery.mCustomScrollbar.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\css\\morris.js\\css\\morris.css",
+      "PackagePath": "staticwebassets\\assets\\css\\morris.js\\css\\morris.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\icon\\icofont\\css\\icofont.css",
+      "PackagePath": "staticwebassets\\assets\\icon\\icofont\\css\\icofont.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\icon\\icofont\\fonts\\icofont.eot",
+      "PackagePath": "staticwebassets\\assets\\icon\\icofont\\fonts\\icofont.eot"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\icon\\icofont\\fonts\\icofont.svg",
+      "PackagePath": "staticwebassets\\assets\\icon\\icofont\\fonts\\icofont.svg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\icon\\icofont\\fonts\\icofont.ttf",
+      "PackagePath": "staticwebassets\\assets\\icon\\icofont\\fonts\\icofont.ttf"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\icon\\icofont\\fonts\\icofont.woff",
+      "PackagePath": "staticwebassets\\assets\\icon\\icofont\\fonts\\icofont.woff"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\icon\\themify-icons\\fonts\\themify.eot",
+      "PackagePath": "staticwebassets\\assets\\icon\\themify-icons\\fonts\\themify.eot"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\icon\\themify-icons\\fonts\\themify.svg",
+      "PackagePath": "staticwebassets\\assets\\icon\\themify-icons\\fonts\\themify.svg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\icon\\themify-icons\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\assets\\icon\\themify-icons\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\icon\\themify-icons\\fonts\\themify.woff",
+      "PackagePath": "staticwebassets\\assets\\icon\\themify-icons\\fonts\\themify.woff"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\icon\\themify-icons\\themify-icons.css",
+      "PackagePath": "staticwebassets\\assets\\icon\\themify-icons\\themify-icons.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\images\\auth\\Logo-small-bottom.png",
+      "PackagePath": "staticwebassets\\assets\\images\\auth\\Logo-small-bottom.png"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\images\\auth\\logo-dark.png",
+      "PackagePath": "staticwebassets\\assets\\images\\auth\\logo-dark.png"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\images\\auth\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\auth\\logo.png"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\images\\avatar-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-1.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\images\\avatar-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-2.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\images\\avatar-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-3.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\images\\avatar-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\avatar-4.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\images\\bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\images\\flags\\ENGLISH.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\ENGLISH.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\images\\flags\\FRANCE.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\FRANCE.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\images\\flags\\PORTO.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\PORTO.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\images\\flags\\SPAIN.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\flags\\SPAIN.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\images\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo.png"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\images\\mega-menu\\01.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\mega-menu\\01.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\images\\mega-menu\\02.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\mega-menu\\02.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\images\\mega-menu\\03.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\mega-menu\\03.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\images\\mega-menu\\04.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\mega-menu\\04.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\images\\mega-menu\\05.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\mega-menu\\05.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\images\\mega-menu\\06.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\mega-menu\\06.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\images\\pattern2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\pattern2.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\images\\user.png",
+      "PackagePath": "staticwebassets\\assets\\images\\user.png"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\js\\SmoothScroll.js",
+      "PackagePath": "staticwebassets\\assets\\js\\SmoothScroll.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\js\\bootstrap-growl.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap-growl.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\js\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\js\\classie.js",
+      "PackagePath": "staticwebassets\\assets\\js\\classie.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\js\\classie\\classie.js",
+      "PackagePath": "staticwebassets\\assets\\js\\classie\\classie.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\js\\common-pages.js",
+      "PackagePath": "staticwebassets\\assets\\js\\common-pages.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\js\\demo-12.js",
+      "PackagePath": "staticwebassets\\assets\\js\\demo-12.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\js\\jquery-slimscroll\\jquery.slimscroll.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-slimscroll\\jquery.slimscroll.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\js\\jquery-ui\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-ui\\jquery-ui.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\js\\jquery.mCustomScrollbar.concat.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.mCustomScrollbar.concat.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\js\\jquery.mousewheel.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.mousewheel.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\js\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\js\\modernizr\\css-scrollbars.js",
+      "PackagePath": "staticwebassets\\assets\\js\\modernizr\\css-scrollbars.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\js\\modernizr\\modernizr.js",
+      "PackagePath": "staticwebassets\\assets\\js\\modernizr\\modernizr.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\js\\morris.js\\morris.js",
+      "PackagePath": "staticwebassets\\assets\\js\\morris.js\\morris.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\js\\pcoded.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\pcoded.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\js\\popper.js\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\popper.js\\popper.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\js\\raphael\\raphael.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\raphael\\raphael.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\js\\script.js",
+      "PackagePath": "staticwebassets\\assets\\js\\script.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\js\\script.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\script.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\accordion\\accordion.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\accordion\\accordion.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\accordion\\accordion.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\accordion\\accordion.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\chart\\morris\\morris-custom-chart.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\chart\\morris\\morris-custom-chart.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\dashboard\\amchart\\css\\amchart.css",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\amchart\\css\\amchart.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\dashboard\\amchart\\css\\export.css",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\amchart\\css\\export.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\dashboard\\amchart\\js\\amcharts.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\amchart\\js\\amcharts.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\dashboard\\amchart\\js\\custom-amchart.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\amchart\\js\\custom-amchart.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\dashboard\\amchart\\js\\export.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\amchart\\js\\export.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\dashboard\\amchart\\js\\images\\dragIconRoundBig.svg",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\amchart\\js\\images\\dragIconRoundBig.svg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\dashboard\\amchart\\js\\images\\dragIconRoundBigH.svg",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\amchart\\js\\images\\dragIconRoundBigH.svg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\dashboard\\amchart\\js\\light.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\amchart\\js\\light.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\dashboard\\amchart\\js\\serial.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\amchart\\js\\serial.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\dashboard\\custom-dashboard.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\dashboard\\custom-dashboard.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\google-maps\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\google-maps\\gmaps.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\google-maps\\jquery.gmaps.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\google-maps\\jquery.gmaps.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\icon-modal.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\icon-modal.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\notification\\notification.css",
+      "PackagePath": "staticwebassets\\assets\\pages\\notification\\notification.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\notification\\notification.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\notification\\notification.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\todo\\todo.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\todo\\todo.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\widget\\amchart\\amcharts.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\amcharts.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\widget\\amchart\\amcharts.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\amcharts.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\widget\\amchart\\ammap.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\ammap.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\widget\\amchart\\ammap.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\ammap.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\widget\\amchart\\continentsLow.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\continentsLow.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\widget\\amchart\\continentsLow.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\continentsLow.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\widget\\amchart\\gauge.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\gauge.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\widget\\amchart\\gauge.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\gauge.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\widget\\amchart\\light.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\light.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\widget\\amchart\\light.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\light.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\widget\\amchart\\pie.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\pie.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\widget\\amchart\\pie.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\pie.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\widget\\amchart\\serial.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\serial.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\widget\\amchart\\serial.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\serial.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\widget\\amchart\\worldLow.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\worldLow.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\assets\\pages\\widget\\amchart\\worldLow.min.js",
+      "PackagePath": "staticwebassets\\assets\\pages\\widget\\amchart\\worldLow.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\css\\StyleSheet.css",
+      "PackagePath": "staticwebassets\\css\\StyleSheet.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\css\\tooplate-style.css",
+      "PackagePath": "staticwebassets\\css\\tooplate-style.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\images\\Data_security_01.jpg",
+      "PackagePath": "staticwebassets\\images\\Data_security_01.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\images\\about-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\about-bg.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\images\\appointment-image.jpg",
+      "PackagePath": "staticwebassets\\images\\appointment-image.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\images\\author-image.jpg",
+      "PackagePath": "staticwebassets\\images\\author-image.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\images\\news-image.jpg",
+      "PackagePath": "staticwebassets\\images\\news-image.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\images\\news-image1.jpg",
+      "PackagePath": "staticwebassets\\images\\news-image1.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\images\\news-image2.jpg",
+      "PackagePath": "staticwebassets\\images\\news-image2.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\images\\news-image3.jpg",
+      "PackagePath": "staticwebassets\\images\\news-image3.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\images\\slider1.jpg",
+      "PackagePath": "staticwebassets\\images\\slider1.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\images\\slider2.jpg",
+      "PackagePath": "staticwebassets\\images\\slider2.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\images\\slider3.jpg",
+      "PackagePath": "staticwebassets\\images\\slider3.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\images\\team-image1.jpg",
+      "PackagePath": "staticwebassets\\images\\team-image1.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\images\\team-image2.jpg",
+      "PackagePath": "staticwebassets\\images\\team-image2.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\images\\team-image3.jpg",
+      "PackagePath": "staticwebassets\\images\\team-image3.jpg"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jquery.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\js\\jquery.stellar.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.stellar.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\js\\jquery.sticky.js",
+      "PackagePath": "staticwebassets\\js\\jquery.sticky.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\js\\smoothscroll.js",
+      "PackagePath": "staticwebassets\\js\\smoothscroll.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\js\\wow.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Inzeal Infotech\\Project\\healt_Center\\healt_Center\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.healt_Center.props",
+      "PackagePath": "build\\healt_Center.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.healt_Center.props",
+      "PackagePath": "buildMultiTargeting\\healt_Center.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.healt_Center.props",
+      "PackagePath": "buildTransitive\\healt_Center.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.healt_Center.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

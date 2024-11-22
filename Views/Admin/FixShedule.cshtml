@@ -1,0 +1,33 @@
+﻿@using healt_Center.Models 
+@{
+    ViewData["Title"] = "FixShedule";
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
+}
+@model patient
+
+<div class="card">
+    <div class="card-header">
+        <h4 class="text-center my-3">Fix Shedule</h4>
+        <form method="post">
+            <div class="row">
+                <div class="col-md-6">
+                    <input type="hidden" name="app_id" value="@Model.Id" />
+                    <input type="text" class="form-control my-3 " name="app_name" readonly value="@Model.name"/>
+                    <input type="email" class="form-control my-3" name="app_email" readonly value="@Model.email" />
+                    <input type="datetime" class="form-control my-3" name="app_date_time" readonly value="@Model.date" />
+                    <input type="text" class="form-control my-3" name="app_department" readonly value="@Model.department" />
+                </div>
+                <div class="col-md-6">
+                  
+                    <input type="text" class="form-control my-3" name="app_phone" readonly value="@Model.phone" />
+                    <textarea name="admin_message" rows="4" class="form-control my-3 w-100" placeholder="Enter Something....??"></textarea>
+                    <input type="time" class="form-control my-3" name="admin_time" />
+                    
+                </div>
+                <input type="submit" value="Fix Shedule" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+

@@ -1,0 +1,76 @@
+﻿@using healt_Center.Models
+@{
+    ViewData["Title"] = "New_Appointments";
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
+}
+
+@model List<patient>
+
+ <style>
+    .fixed-width {
+        width: 200px; /* Adjust the width as needed */
+        white-space: nowrap; /* Optional: Prevent text from wrapping */
+        overflow: hidden; /* Optional: Hide overflow content */
+        text-overflow: ellipsis; /* Optional: Show ellipsis for overflow content */
+    }
+</style>
+
+<div class="card">
+    <div class="card-header">
+        <h4 class="text-center text-danger">New Appointments</h4>
+
+        <div class="card-header-right">
+            <ul class="list-unstyled card-option">
+                <li><i class="icofont icofont-simple-left "></i></li>
+                <li><i class="icofont icofont-maximize full-card"></i></li>
+                <li><i class="icofont icofont-minus minimize-card"></i></li>
+                <li><i class="icofont icofont-refresh reload-card"></i></li>
+                <li><i class="icofont icofont-error close-card"></i></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-block table-border-style">
+        <div class="table-responsive">
+
+<div class="table-responsive">
+    <table class="table table-hover">
+        <thead class="fw-bold">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Date</th>
+                <th>Department</th>
+                <th>Phone No</th>
+                <th>Message</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(Model != null)
+            {
+                @foreach(var data in Model)
+                {
+                     <tr>
+                         <td>@data.name</td>
+                         <td>@data.email</td>
+                         <td>@data.date</td>
+                         <td>@data.department</td>
+                         <td>@data.phone</td>
+                         <td>@data.message</td>
+                         <td style="color: @(data.status == 0 ? "red" : "green")">
+                             @(data.status == 0 ? "Pending" : "Confirmed")
+                         </td>
+                         <td>
+                             <a href="@Url.Action("FixShedule", "admin", new { id = data.Id })" class="btn btn-info">Fix Schedule</a>
+                         </td>
+                     </tr>   
+                }
+            }
+        </tbody>
+    </table>
+</div>
+</div>
+    </div>
+</div>
+

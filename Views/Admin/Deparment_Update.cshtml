@@ -1,0 +1,22 @@
+﻿@using healt_Center.Models
+@{
+    ViewData["Title"] = "Deparment_Update";
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
+}
+
+@model Add_Department
+
+
+<div class="card">
+    <div class="card-header">
+        <h5 class="text-center my-3">Update Deparment</h5>
+
+        <form method="post">
+            <input type="hidden" name="Id" value="@Model.Id" />
+            <input type="text" class="form-control my-3" name="Department" placeholder="Enter Department  Name*" value="@Model.Department" />
+            <input type="submit" value="Update Now" class="btn btn-primary" />
+        </form>
+
+    </div>
+
+
